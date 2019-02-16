@@ -5,7 +5,7 @@ import com.kjelle.net.Server;
 public class Main {
 
     public static void main(String[] args) {
-        if(args.length >= 0 && args.length < 2) {
+        if(args.length < 3) {
             String[] socket = args[1].split(":");
             String ip = socket[0];
             int port = Integer.parseInt(socket[1]);
